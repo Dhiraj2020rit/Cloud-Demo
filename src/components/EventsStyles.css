@@ -1,0 +1,147 @@
+.event-name {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.event-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.event-card {
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+}
+
+.event-card img {
+    width: 100%;
+}
+
+.event-title {
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.event-details p {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.event-btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgb(248, 217, 15);
+    color: #222;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.more-show {
+    cursor: pointer;
+}
+
+body.active-modal {
+    overflow-y: hidden;
+}
+
+body.active-more {
+    overflow-y: hidden;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.modal,
+.more {
+    z-index: 250;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.modal input {
+    width: 100%;
+    height: 40px;
+}
+
+.more input {
+    width: 100%;
+    height: 40px;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.buttonC {
+    padding-left: 150px;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #000;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+    justify-content: center;
+}
+
+.modal-content .select1 {
+    margin-left: 6rem;
+    padding-right: 50px;
+}
+
+.modal-content .select2 {
+    margin-left: 16rem;
+    padding-right: 50px;
+}
+
+.modal-content .select3 {
+    margin-left: 19rem;
+    padding-right: 50px;
+}
+
+.close-modal {
+    position: absolute;
+    background: none;
+    border: none;
+    color: white;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:740px) {
+    .event-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}

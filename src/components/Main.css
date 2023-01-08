@@ -1,0 +1,23 @@
+.loginform {
+    padding-top: 10rem;
+}
+
+.buttonC {
+    /*border: 1px solid #fff;*/
+    margin-right: 155px;
+}
+
+.container {
+    display: inline-block;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+.container input {
+    font-size: large;
+    padding: 1rem;
+    border-radius: 20%;
+}
